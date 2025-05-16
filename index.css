@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#landing{
+    margin-top: 50px;
+}
+
+/* nav-bar styles */
+
+.navbar-nav a{
+    color: white;
+}
+
+#navbarNav a{
+    text-decoration: none;
+}
+
+#navbar{
+    width: 100%;
+}
+
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
+/* about-me styles */
+
+#about-group{
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+}
+
+#profile-panel img{
+    border-radius: 5px;
+    width: 500px;
+}
+
+#images{
+    max-width: 200px;
+}
+
+#hireme-button{
+    background-color: #e09812;
+    border: none;
+    padding: 4px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+}
+
+#hireme-button:hover{
+    opacity: 0.8;
+}
+
+#hireme-button:active{
+    box-shadow: none;
+    margin-top: 1px;
+    margin-left: 1px;
+}
+
+/* projects styles */
+
+.card-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+}
+
+.card-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card{
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.7);
+    min-height: 500px;
+}
+
+#projects{
+    margin-bottom: 20px
+}
+
+/* tools styles */
+
+.tools-container{
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#tool1, #tool2{
+    width: 300px;
+    padding: 50px;
+}
+
+#tools img{
+    width: 80px;
+    object-fit: contain;
+}
+
+/* contact styles */
+
+.form-group{
+    border: 2px solid rgb(97, 162, 248);
+    border-radius: 5px;
+}
+
+.form textarea{
+    height: 200px;
+}
+
+.form button{
+    width: 100px;
+}
+
+.form a{
+    text-decoration: none;
+}
+
+.lower-form{
+    padding: 0;
+}
+
+/* footer style */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 10px;
+    font-size: 14px;
+    height: 100px;
+    justify-content: center;
+}
